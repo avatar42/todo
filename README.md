@@ -26,7 +26,7 @@ Run commands<br>
 <code>ionic cordova platform add phoneType<br>
 ionic cordova build phoneType<br>
 ionic cordova emulate phoneType</code><br>
-Unfortunately it seems to have a problem getting the list of devices from the Android Device Manager to you need to pass the target for android as well as in<br>
+Unfortunately it seems to have a problem getting the list of devices from the Android Device Manager with version 27 SDK, so you need to pass the target for android as well. As in<br>
 <code>ionic cordova emulate android --target "Nexus_5X_KitKat"</code><br>
  
 
